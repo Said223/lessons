@@ -1,0 +1,62 @@
+@import url(reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap');
+
+@import url(https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,600;1,800&family=Ubuntu:ital,wght@0,300;0,500;1,300;1,500&display=swap);
+
+@font-face {
+  font-family: 'Inter-Bold';
+  src: url(../fonts/Inter-Bold.woff) format('woff'),
+    url(../fonts/Inter-Bold.woff2) format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url(../fonts/Inter-Regular.woff) format('woff'),
+    url(../fonts/Inter-Regular.woff2) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+  font-family: "Playfair",serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #706513;
+}
+
+h2{
+  font-family: "Inter",sans-serif;
+  font-style: italic;
+  font-size: 30px;
+  font-weight: 700;
+  color: #08403E;
+  text-decoration: underline;
+}
+
+h1{
+  font-family: "Noto Sans",sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  font-style: italic;
+  color: rgba(82, 1, 32, 0.877);
+  text-transform: uppercase;
+}
+div>p{
+  text-indent: 20px
+}
+
+span{
+font-family: "Inter", sans-serif;
+font-weight: 700;
+font-size: 20px;
+color: #962B09;
+}
+footer {
+  text-decoration: line-through;
+}
